@@ -4,3 +4,6 @@ language = "en"
 multilingual = false
 src = "src"
 title = "UE4SS Documentation"
+
+[output.html]
+additional-css = ["css/custom.css"]
