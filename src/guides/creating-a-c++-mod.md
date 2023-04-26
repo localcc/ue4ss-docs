@@ -93,6 +93,7 @@ You can now also remove `#include <stdio.h>` because we'll be removing the use o
 4. To save some time and annoyance and make the code look a bit better, add this line below all the includes:
 ```c++
 using namespace RC;
+using namespace RC::Unreal;
 ```
 5. Replace the call to printf in the body of the `MyAwesomeMod` constructor with:
 ```c++
